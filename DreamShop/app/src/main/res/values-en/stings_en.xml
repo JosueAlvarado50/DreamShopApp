@@ -2,7 +2,7 @@
 <resources>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="app_name">Smart Order</string>
+    <string name="app_name">DreamShop</string>
     <string name="menu_principal">Main menu</string>
     <string name="seleccione_uno">Choose one</string>
     <string name="Iniciarsesion">Log in</string>
