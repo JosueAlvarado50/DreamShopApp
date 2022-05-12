@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.Switch;
 
 public class FragmentUno extends Fragment {
 
@@ -54,7 +55,17 @@ public class FragmentUno extends Fragment {
                 startActivity(i);
             }
         });
-
+        /* final Switch sw = fragmento.findViewById(R.id.switchTema);
+        sw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(sw.isChecked()){
+                    ((MainActivity)getActivity()).setDayNight(0);
+                }else{
+                    ((MainActivity)getActivity()).setDayNight(1);
+                }
+            }
+        });*/
 
 
         return fragmento;

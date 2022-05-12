@@ -21,32 +21,38 @@
     <ImageView
         android:id="@+id/accesorios"
         android:layout_width="wrap_content"
-        android:layout_height="150dp"
+        android:layout_height="193dp"
         android:layout_below="@+id/textox2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_gravity="center"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="15dp"
-        android:src="@drawable/menucom" />
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="50dp"
+        android:src="@drawable/comics" />
 
     <ImageView
         android:id="@+id/tenis"
         android:layout_width="wrap_content"
-        android:layout_height="150dp"
+        android:layout_height="201dp"
         android:layout_below="@+id/accesorios"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_gravity="center"
-        android:layout_marginBottom="15dp"
-        android:src="@drawable/menubeb" />
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="49dp"
+        android:src="@drawable/coleccionables" />
 
     <ImageView
         android:id="@+id/ropa"
         android:layout_width="wrap_content"
-        android:layout_height="150dp"
+        android:layout_height="192dp"
         android:layout_below="@+id/tenis"
+        android:layout_alignParentStart="true"
         android:layout_gravity="center"
-        android:layout_marginBottom="182dp"
-        android:src="@drawable/menupos" />
-
-
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="23dp"
+        android:src="@drawable/consolas" />
 
 
 </RelativeLayout>

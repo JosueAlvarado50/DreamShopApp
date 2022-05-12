@@ -1,6 +1,7 @@
 package mx.ita.sneaker_app3;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -39,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
         super.onPause();
         finish();
     }
+    /*public void setDayNight(int mode){
+        if(mode == 0){
+            getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        }else{
+            getDelegate().setLocalNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        }
+    }*/
 
 
 }
