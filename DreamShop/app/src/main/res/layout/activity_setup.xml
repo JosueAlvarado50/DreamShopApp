@@ -24,6 +24,7 @@
         android:layout_below="@id/encabezado"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
+        android:scaleType="centerInside"
         android:src="@drawable/welcome"
         android:visibility="invisible"
         app:civ_border_color="@color/black"

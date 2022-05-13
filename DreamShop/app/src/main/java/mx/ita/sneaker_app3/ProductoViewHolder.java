@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class ProductoViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-    public TextView productoNom, productoDescripcion, productoPrecio, productoCantidad;
+    public TextView productoNom, productoDescripcion, productoPrecio, productoCantidad,productoDescripcion1;
     public ImageView productoImagen;
     public ItemClickListener listener;
 
@@ -16,6 +16,7 @@ public class ProductoViewHolder extends RecyclerView.ViewHolder implements View.
         super(itemView);
 
         productoNom = (TextView) itemView.findViewById(R.id.producto_nombre);
+        productoDescripcion1 = (TextView) itemView.findViewById(R.id.producto_descripcion1);
         productoDescripcion = (TextView) itemView.findViewById(R.id.producto_descripcion);
         productoCantidad = (TextView) itemView.findViewById(R.id.producto_cantidad);
         productoPrecio = (TextView) itemView.findViewById(R.id.producto_precio);
