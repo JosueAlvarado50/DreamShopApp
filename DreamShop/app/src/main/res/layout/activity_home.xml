@@ -3,9 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/fondo"
-    >
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="358dp"
@@ -15,7 +13,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/fondo"
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
@@ -59,11 +56,6 @@
             android:textSize="15dp" />
 
 
-
-
-
-
-
         <Button
             android:id="@+id/settings"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
@@ -71,6 +63,7 @@
             android:layout_height="41dp"
             android:text="@string/settings"
             android:textSize="15dp" />
+
         <Button
             android:id="@+id/Contacto"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
