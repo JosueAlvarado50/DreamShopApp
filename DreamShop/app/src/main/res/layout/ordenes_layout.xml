@@ -19,7 +19,7 @@
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
-            android:text="Nombre"
+            android:text="@string/nombre"
             android:textColor="@color/white"
             android:textSize="15dp" />
 
@@ -31,7 +31,7 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:textColor="@color/white"
-            android:text="Telefono"
+            android:text="@string/telefono"
             android:textSize="15dp" />
 
         <TextView
@@ -45,7 +45,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
             android:gravity="center"
-            android:text="Precio"
+            android:text="@string/precio_del_producto"
             android:textSize="18dp" />
 
         <TextView
@@ -73,7 +73,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:gravity="center"
-            android:text="Fecha y Hora"
+            android:text="@string/fecha_y_hora"
             android:textSize="18dp" />
 
         <Button
@@ -86,8 +86,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="35dp"
             android:backgroundTint="@color/white"
-
-            android:text="Ver orden" />
+            android:text="@string/ver_orden" />
 
 
     </RelativeLayout>

@@ -19,7 +19,7 @@
             android:id="@+id/nombre_producto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nombre del producto"
+            android:text="@string/nombre_del_producto"
             android:textAlignment="center"
             android:textSize="20sp"
             android:textColor="@color/black"/>
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/imagen_producto"
-            android:text="Descripcion del producto"
+            android:text="@string/descripcion_del_producto"
             android:textSize="16dp"
             android:textAlignment="center"
             android:textColor="@color/black"/>
@@ -44,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/descripcion_producto"
-            android:text="Precio $ "
+            android:text="@string/precio_del_producto"
             android:textSize="18dp"
             android:textAlignment="center"
             android:textColor="@color/purple_500"

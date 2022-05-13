@@ -28,7 +28,7 @@
         android:id="@+id/nombre_perfil"
         android:layout_marginTop="5dp"
         android:paddingTop="5dp"
-        android:text="Nombre"
+        android:text="@string/nombre"
         android:gravity="center"
         android:textSize="20dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>

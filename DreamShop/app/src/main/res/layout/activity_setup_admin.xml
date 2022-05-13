@@ -13,7 +13,7 @@
         android:layout_centerHorizontal="true"
         android:background="@color/white"
         android:padding="15dp"
-        android:text="Registro"
+        android:text="@string/registrarse"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold|italic" />
@@ -40,7 +40,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/textos"
-        android:hint="nombre"
+        android:hint="@string/nombre"
         android:inputType="text"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -53,7 +53,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/textos"
-        android:hint="direccion"
+        android:hint="@string/direccion"
         android:inputType="text"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -67,7 +67,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/textos"
-        android:hint="telefono"
+        android:hint="@string/telefono"
         android:inputType="phone"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -81,7 +81,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/textos"
-        android:hint="ciudad"
+        android:hint="@string/ciudad"
         android:inputType="text"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -95,9 +95,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/botones1"
-        android:inputType="text"
+
         android:padding="10dp"
-        android:text="CONTINUAR"
+        android:text="@string/continuar"
         android:textSize="20dp" />
 
 </RelativeLayout>

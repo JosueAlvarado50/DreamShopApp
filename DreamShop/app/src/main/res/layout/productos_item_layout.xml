@@ -16,7 +16,7 @@
             android:id="@+id/producto_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nombre del producto"
+            android:text="@string/nombre_del_producto"
             android:textAlignment="center"
             android:textSize="20dp"
             android:textColor="@color/black" />
@@ -35,7 +35,7 @@
             android:layout_below="@id/producto_imagen"
             android:textAlignment="center"
             android:textSize="16dp"
-            android:text="Descripcion del producto"
+            android:text="@string/descripcion_del_producto"
             android:textColor="@color/purple_500"/>
         <TextView
             android:id="@+id/producto_cantidad"
@@ -44,7 +44,7 @@
             android:layout_below="@id/producto_descripcion"
             android:textAlignment="center"
             android:textSize="20dp"
-            android:text="Cantidad: 000"
+            android:text="@string/cantidad_000"
             android:textColor="@color/purple_500"
             android:layout_marginStart="10dp"/>
 
