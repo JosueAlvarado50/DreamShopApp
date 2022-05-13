@@ -7,7 +7,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="menu_principal">Menú Principal</string>
     <string name="seleccione_uno">Seleccione Uno</string>
-    <string name="admin">Administrador</string>
+    <string name="admin">Admin</string>
     <string name="Iniciarsesion">Iniciar sesión</string>
     <string name="bienvenido">¡Bienvenido!</string>
     <string name="password">Contraseña</string>
@@ -43,5 +43,33 @@
     <string name="food">Comidas</string>
     <string name="drinks">Bebidas</string>
     <string name="desserts">Postres</string>
+    <string name="agregar_producto">Agregar producto</string>
+    <string name="nombre_del_producto">Nombre del producto</string>
+    <string name="descripcion_del_producto">Descripción del producto</string>
+    <string name="precio_de_compra">Precio de compra</string>
+    <string name="precio_de_venta">Precio de venta</string>
+    <string name="cantidad_existente">Cantidad existente</string>
+    <string name="agregar">¡Agregar!</string>
+    <string name="su_compra_fue_exitosa">¡Compra exitosa!</string>
+    <string name="efectivo">Efectivo</string>
+    <string name="paypal">Paypal</string>
+    <string name="confirmar_compra">Confirmar compra</string>
+    <string name="nombre">Nombre</string>
+    <string name="correo">Correo</string>
+    <string name="direccion">Dirección</string>
+    <string name="telefono">Teléfono</string>
+    <string name="finalizar_compra">Finalizar compra</string>
+    <string name="perfil_usuario">Perfil de Usuario</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="guardar">Guardar</string>
+    <string name="precio_del_producto">Precio del producto</string>
+    <string name="cantidad_producto">Cantidad</string>
+    <string name="AddCarrito">Añadir al carrito</string>
+    <string name="day_or_night">Día o Noche</string>
+    <string name="registro_de_datos">Registro de datos</string>
+    <string name="continuar">Continuar</string>
+    <string name="fecha_y_hora">Fecha y Hora</string>
+    <string name="ver_orden">Ver orden</string>
+    <string name="cantidad_000">Cantidad: 000</string>
 
 </resources>
