@@ -14,7 +14,7 @@
         android:layout_centerHorizontal="true"
         android:background="@color/purple_500"
         android:padding="15dp"
-        android:text="Agregar producto"
+        android:text="@string/agregar_producto"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold|italic" />
@@ -39,7 +39,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/textos"
-        android:hint="Nombre del producto"
+        android:hint="@string/nombre_del_producto"
         android:inputType="text"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -53,7 +53,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/textos"
-        android:hint="Descripcion del producto"
+        android:hint="@string/descripcion_del_producto"
         android:inputType="text"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -67,7 +67,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/textos"
-        android:hint="Precio de compra"
+        android:hint="@string/precio_de_compra"
         android:inputType="numberDecimal"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -81,7 +81,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/textos"
-        android:hint="Precio de venta"
+        android:hint="@string/precio_de_venta"
         android:inputType="numberDecimal"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -95,7 +95,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/textos"
-        android:hint="Cantidad existente"
+        android:hint="@string/cantidad_existente"
         android:inputType="number"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -115,7 +115,7 @@
         android:background="@drawable/botones1"
         android:inputType="textMultiLine"
         android:padding="10dp"
-        android:text="Agregar"
+        android:text="@string/agregar"
         android:textAllCaps="false"
         android:textSize="18dp" />
 
