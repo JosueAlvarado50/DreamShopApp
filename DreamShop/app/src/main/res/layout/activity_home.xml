@@ -58,12 +58,6 @@
             android:text="@string/admin"
             android:textSize="15dp" />
 
-
-
-
-
-
-
         <Button
             android:id="@+id/settings"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
