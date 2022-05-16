@@ -39,7 +39,7 @@
         <entry key="..\:/GITHUB/DreamShopApp/DreamShop/app/src/main/res/layout-land/activity_producto_detalles.xml" value="0.5" />
         <entry key="..\:/GITHUB/DreamShopApp/DreamShop/app/src/main/res/layout/activity_admin.xml" value="0.17074275362318841" />
         <entry key="..\:/GITHUB/DreamShopApp/DreamShop/app/src/main/res/layout/activity_agregarproducto.xml" value="0.17074275362318841" />
-        <entry key="..\:/GITHUB/DreamShopApp/DreamShop/app/src/main/res/layout/activity_carrito.xml" value="0.25" />
+        <entry key="..\:/GITHUB/DreamShopApp/DreamShop/app/src/main/res/layout/activity_carrito.xml" value="0.2" />
         <entry key="..\:/GITHUB/DreamShopApp/DreamShop/app/src/main/res/layout/activity_confirmarorden.xml" value="0.17074275362318841" />
         <entry key="..\:/GITHUB/DreamShopApp/DreamShop/app/src/main/res/layout/activity_contacto.xml" value="0.17074275362318841" />
         <entry key="..\:/GITHUB/DreamShopApp/DreamShop/app/src/main/res/layout/activity_home.xml" value="0.17074275362318841" />
@@ -145,7 +145,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.5" />
+        <option name="scale" value="0.2" />
       </ProjectState>
     </option>
   </component>
