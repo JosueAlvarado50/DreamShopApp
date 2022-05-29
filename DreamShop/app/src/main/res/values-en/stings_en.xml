@@ -12,7 +12,7 @@
     <string name="sharebutt">Share</string>
     <string name="bienvenido">Welcome!</string>
     <string name="registrarse">Sing in</string>
-    <string name="unete">Join</string>
+    <string name="unete">Join!</string>
     <string name="settings">Settings</string>
     <string name="share">Can share our app if you are enjoying it?</string>
     <string name="notienescuenta">You haven\'t an account?</string>
@@ -70,4 +70,6 @@
     <string name="fecha_y_hora">Datetime</string>
     <string name="ver_orden">View order</string>
     <string name="cantidad_000">Amount: 000</string>
+    <string name="cerrar_sesion">Sign Out</string>
+    <string name="bienvenidoadmin">Welcome Admin!</string>
 </resources>

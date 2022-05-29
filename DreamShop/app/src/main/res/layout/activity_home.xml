@@ -22,7 +22,7 @@
             android:id="@+id/imageView2"
             android:layout_width="276dp"
             android:layout_height="231dp"
-            app:srcCompat="@drawable/logodream" />
+            app:srcCompat="@drawable/imagotipods" />
 
         <TextView
             android:id="@+id/textView18"

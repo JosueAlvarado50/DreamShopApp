@@ -2,9 +2,6 @@
     <string name="app_name">DreamShop</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="menu_principal">Menú Principal</string>
     <string name="seleccione_uno">Seleccione Uno</string>
     <string name="admin">Admin</string>
@@ -14,6 +11,8 @@
     <string name="settings">Ajustes</string>
     <string name="user">Usuarios</string>
     <string name="unete">Unirse</string>
+    <string name="user">Usuario</string>
+    <string name="unete">¡Únete!</string>
     <string name="sharebutt">Compartir</string>
     <string name="share">Si te gusta nuestra app comparte con tus amigos.</string>
     <string name="email">Correo</string>
@@ -71,5 +70,17 @@
     <string name="fecha_y_hora">Fecha y Hora</string>
     <string name="ver_orden">Ver orden</string>
     <string name="cantidad_000">Cantidad: 000</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="bienvenidoadmin">¡Bienvenido Admin!</string>
+    <string name="productos">Productos</string>
+    <string name="correo_y_direccion">Correo y Dirección</string>
+    <string name="carrito">Carrito</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="inicio">Inicio</string>
+    <string name="inventario">Inventario</string>
+    <string name="perfil">Perfil</string>
+    <string name="orden">Orden</string>
+    <string name="navigation_drawer_close">b</string>
+    <string name="navigation_drawer_open">a</string>
 
 </resources>

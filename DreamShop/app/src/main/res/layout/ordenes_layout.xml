@@ -18,10 +18,10 @@
             android:id="@+id/orden_nombre"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:text="@string/nombre"
             android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <TextView
             android:id="@+id/orden_telefono"
@@ -32,7 +32,7 @@
             android:layout_marginRight="5dp"
             android:textColor="@color/white"
             android:text="@string/telefono"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <TextView
             android:textColor="@color/white"
@@ -46,7 +46,8 @@
             android:layout_marginRight="5dp"
             android:gravity="center"
             android:text="@string/precio_del_producto"
-            android:textSize="18dp" />
+            android:textSize="18sp"
+            android:padding="5dp"/>
 
         <TextView
             android:textColor="@color/white"
@@ -59,8 +60,9 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
             android:gravity="center"
-            android:text="Correo y Direccion"
-            android:textSize="18dp" />
+            android:text="@string/correo_y_direccion"
+            android:textSize="18sp"
+            android:padding="5dp"/>
 
         <TextView
             android:textColor="@color/white"
@@ -74,7 +76,8 @@
             android:layout_marginRight="5dp"
             android:gravity="center"
             android:text="@string/fecha_y_hora"
-            android:textSize="18dp" />
+            android:textSize="18sp"
+            android:padding="5dp"/>
 
         <Button
             android:textColor="@color/purple_500"
@@ -83,11 +86,10 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/orden_fecha"
             android:layout_marginLeft="35dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:layout_marginRight="35dp"
             android:backgroundTint="@color/white"
             android:text="@string/ver_orden" />
-
 
     </RelativeLayout>
 

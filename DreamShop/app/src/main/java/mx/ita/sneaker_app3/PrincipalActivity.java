@@ -74,7 +74,7 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
         });
 
         Toolbar toolbar = findViewById(R.id.toolbar);
-        //toolbar.setTitle("Sneakerland");
+        //toolb ar.setTitle("Sneakerland");
         setActionBar(toolbar);
 
 
