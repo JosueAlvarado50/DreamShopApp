@@ -41,9 +41,8 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
     private DatabaseReference UserRef, ProductosRef;
     private FloatingActionButton botonFlotante;
     private RecyclerView recyclerMenu;
+    private Toolbar toolbar;
     RecyclerView.LayoutManager layoutManager;
-
-
     private String Telefono = "";
 
     @Override
@@ -73,9 +72,6 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
             }
         });
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        //toolbar.setTitle("Sneakerland");
-        setActionBar(toolbar);
 
 
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
@@ -83,12 +79,9 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
                 this, drawerLayout, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
         View headerView = navigationView.getHeaderView(0);
-
         TextView nombreHeader = (TextView) headerView.findViewById(R.id.nombre_perfil);
         CircleImageView imagenHeader = (CircleImageView) headerView.findViewById(R.id.user_perfil);
 
@@ -206,7 +199,27 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        return super.onOptionsItemSelected(item);
+
+        int id = item.getItemId();
+
+        if(id == R.id.nav_carrito){
+            ActivityCarrito();
+        }
+        else if(id == R.id.nav_perfil){
+            ActivityPerfil();
+        }
+        else if(id == R.id.nav_salir){
+            auth.signOut();
+            EnviaralLogin();
+
+        }
+        else if(id == R.id.nav_settings){
+            auth.signOut();
+            ActivitySettings();
+
+        }
+
+        return true;
     }
 
     @Override
@@ -224,6 +237,11 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
             EnviaralLogin();
 
         }
+        else if(id == R.id.nav_settings){
+            auth.signOut();
+            ActivitySettings();
+
+        }
 
         DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerLayout.closeDrawer(GravityCompat.START);
@@ -234,6 +252,14 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
         Toast.makeText(this, "Perfil", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(PrincipalActivity.this, PerfilActivity.class);
         startActivity(i);
+    }
+    private  void ActivitySettings(){
+        Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(PrincipalActivity.this, Settings.class);
+        startActivity(i);
+    }
+    private void ActivityDarkMode(){
+        Toast.makeText(this,"dark Mode", Toast.LENGTH_SHORT).show();
     }
 
     private void ActivityBuscar() {
@@ -250,8 +276,8 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
 
     private void ActivityCarrito() {
         Toast.makeText(this, "Carrito", Toast.LENGTH_SHORT).show();
-        //Intent i = new Intent(PrincipalActivity.this, PerfilActivity.class);
-        //startActivity(i);
+        Intent i = new Intent(PrincipalActivity.this, CarritoActivity.class);
+        startActivity(i);
     }
 
     private void EnviaralLogin(){

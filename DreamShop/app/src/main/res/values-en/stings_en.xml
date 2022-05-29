@@ -44,7 +44,7 @@
     <string name="acercade">About us</string>
     <string name="agregar_producto">Add product</string>
     <string name="nombre_del_producto">Product name</string>
-    <string name="descripcion_del_producto">Product descripction</string>
+    <string name="descripcion_del_producto">Descripction:</string>
     <string name="precio_de_compra">Purchase price</string>
     <string name="precio_de_venta">Sale price</string>
     <string name="cantidad_existente">Existing amount</string>
