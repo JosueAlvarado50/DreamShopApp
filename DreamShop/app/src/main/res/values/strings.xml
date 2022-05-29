@@ -45,7 +45,7 @@
     <string name="desserts">Postres</string>
     <string name="agregar_producto">Agregar producto</string>
     <string name="nombre_del_producto">Nombre del producto</string>
-    <string name="descripcion_del_producto">Descripción del producto</string>
+    <string name="descripcion_del_producto">Descripción</string>
     <string name="precio_de_compra">Precio de compra</string>
     <string name="precio_de_venta">Precio de venta</string>
     <string name="cantidad_existente">Cantidad existente</string>
