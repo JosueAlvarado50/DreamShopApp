@@ -16,7 +16,8 @@
         android:text="@string/registrarse"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        android:textSize="20sp"/>
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/admsetup_imagen"
@@ -43,7 +44,8 @@
         android:hint="@string/nombre"
         android:inputType="text"
         android:padding="10dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:layout_margin="15dp"/>
 
     <EditText
         android:id="@+id/admsetup_direccion"
@@ -56,7 +58,8 @@
         android:hint="@string/direccion"
         android:inputType="text"
         android:padding="10dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:layout_margin="15dp"/>
 
     <EditText
         android:id="@+id/admsetup_telefono"
@@ -70,7 +73,8 @@
         android:hint="@string/telefono"
         android:inputType="phone"
         android:padding="10dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:layout_margin="15dp"/>
 
     <EditText
         android:id="@+id/admsetup_ciudad"
@@ -84,7 +88,8 @@
         android:hint="@string/ciudad"
         android:inputType="text"
         android:padding="10dp"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:layout_margin="15dp"/>
 
     <Button
         android:id="@+id/admsetup_boton"
@@ -95,9 +100,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/botones1"
-
+        android:layout_margin="20dp"
         android:padding="10dp"
         android:text="@string/continuar"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
 </RelativeLayout>

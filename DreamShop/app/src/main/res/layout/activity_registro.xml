@@ -24,21 +24,17 @@
             android:layout_height="wrap_content"
             android:text="@string/registrarse"
             android:textAlignment="center"
-            android:textSize="30dp" />
-        <TextView
-            android:id="@+id/textView29"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textAlignment="center"
-            android:textSize="27dp" />
+            android:textSize="30sp"
+            android:paddingBottom="30sp"/>
+
         <TextView
             android:id="@+id/textView27"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/yatienescuenta"
             android:textAlignment="center"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
+
         <TextView
             android:id="@+id/ingresa"
             android:layout_width="match_parent"
@@ -47,28 +43,25 @@
             android:textAlignment="center"
             android:textColor="@color/purple_500"
             android:clickable="true"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
 
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textAlignment="center"
-            android:textSize="30dp" />
         <TextView
             android:id="@+id/textView31"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/unete"
             android:textAlignment="center"
-            android:textSize="25dp" />
+            android:textSize="25sp"
+            android:paddingTop="30sp"
+            android:paddingBottom="15sp"/>
+
         <TextView
             android:id="@+id/textView21"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/email"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
+
         <EditText
             android:id="@+id/correo"
             android:layout_width="match_parent"
@@ -76,9 +69,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text=""
+            android:text=""/>
 
-            />
         <TextView
             android:id="@+id/textView22"
             android:layout_width="match_parent"
@@ -94,12 +86,14 @@
             android:inputType="textPassword"
             android:minHeight="48dp"
             tools:ignore="SpeakableTextPresentCheck" />
+
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/passwordconfirmation"
             android:textSize="20dp" />
+
         <EditText
             android:id="@+id/passconfirmation"
             android:layout_width="match_parent"
@@ -107,14 +101,7 @@
             android:ems="10"
             android:inputType="textPassword"
             android:minHeight="48dp"
-            tools:ignore="SpeakableTextPresentCheck" />
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textAlignment="center"
-            android:textSize="25dp" />
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/iniciar"
@@ -122,22 +109,17 @@
             android:layout_width="match_parent"
             android:layout_height="61dp"
             android:onClick="registrarUsuario"
-            android:text="@string/registrarse" />
+            android:text="@string/registrarse"
+            android:layout_margin="20sp"/>
 
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textAlignment="center"
-            android:textSize="30dp" />
         <TextView
             android:id="@+id/textView24"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/alunirse"
             android:textAlignment="center"
-            android:textSize="15dp" />
+            android:textSize="15sp"
+            android:layout_marginTop="15sp"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

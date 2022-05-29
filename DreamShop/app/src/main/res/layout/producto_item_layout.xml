@@ -23,6 +23,7 @@
             android:textAlignment="center"
             android:textSize="20sp"
             android:textColor="@color/black"/>
+
         <ImageView
             android:id="@+id/imagen_producto"
             android:layout_width="match_parent"
@@ -30,13 +31,14 @@
             android:layout_below="@id/nombre_producto"
             android:scaleType="centerCrop"
             android:layout_marginTop="2dp" />
+
         <TextView
             android:id="@+id/descripcion_producto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/imagen_producto"
             android:text="@string/descripcion_del_producto"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textAlignment="center"
             android:textColor="@color/black"/>
         <TextView
@@ -45,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/descripcion_producto"
             android:text="@string/precio_del_producto"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:textAlignment="center"
             android:textColor="@color/purple_500"
             android:textStyle="bold"

@@ -22,15 +22,7 @@
             android:layout_height="wrap_content"
             android:text="@string/bienvenido"
             android:textAlignment="center"
-            android:textSize="30dp" />
-
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textAlignment="center"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView31"
@@ -38,7 +30,8 @@
             android:layout_height="wrap_content"
             android:text="@string/Iniciarsesion"
             android:textAlignment="center"
-            android:textSize="25dp" />
+            android:textSize="25sp"
+            android:padding="20dp"/>
 
 
         <EditText
@@ -47,7 +40,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/email"
             android:ems="10"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:inputType="textPersonName"
             android:minHeight="48dp"
             android:text=""
@@ -60,11 +53,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:inputType="textPassword"
             android:minHeight="48dp"
             tools:ignore="SpeakableTextPresentCheck" />
-
 
         <Button
             android:id="@+id/iniciar"
@@ -72,14 +64,15 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:text="@string/Iniciarsesion"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
+
         <TextView
             android:id="@+id/textView27"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text=""
             android:textAlignment="center"
-            android:textSize="20dp"/>
+            android:textSize="20sp"/>
 
         <TextView
             android:id="@+id/textView23"
@@ -87,14 +80,7 @@
             android:layout_height="wrap_content"
             android:text="@string/notienescuenta"
             android:textAlignment="center"
-            android:textSize="20dp" />
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textAlignment="center"
-            android:textSize="7dp"/>
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/registrateaqui"
@@ -105,6 +91,7 @@
             android:text="@string/registrateaqui"
             android:textAlignment="center"
             android:textColor="@color/purple_500"
-            android:textSize="20dp" />
+            android:textSize="20sp"
+            android:padding="20dp"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

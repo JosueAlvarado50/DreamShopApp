@@ -3,20 +3,20 @@
 
     <item
         android:id="@+id/fragmentUno"
-        android:title="Inicio"
+        android:title="@string/inicio"
         android:icon="@drawable/ic_home"/>
 
     <item
         android:id="@+id/fragmentDos"
-        android:title="Inventario"
+        android:title="@string/inventario"
         android:icon="@drawable/ic_lista"/>
     <item
         android:id="@+id/fragmentTres"
-        android:title="Perfil"
+        android:title="@string/perfil"
         android:icon="@drawable/ic_person"/>
     <item
         android:id="@+id/fragmentCuatro"
-        android:title="Orden"
+        android:title="@string/orden"
         android:icon="@drawable/ic_table"/>
 
 </menu>

@@ -9,14 +9,14 @@
         android:id="@+id/textox2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Agregar producto"
+        android:text="@string/agregar_producto"
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:background="@color/purple_500"
         android:textColor="@color/black"
-        android:padding="5dp"
-        android:textStyle="bold|italic"/>
-
+        android:padding="10dp"
+        android:textStyle="bold|italic"
+        android:textSize="18sp"/>
 
     <ImageView
         android:id="@+id/accesorios"
@@ -53,6 +53,5 @@
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="23dp"
         android:src="@drawable/consolas" />
-
 
 </RelativeLayout>
