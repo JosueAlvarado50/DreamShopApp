@@ -2,7 +2,6 @@
     <string name="app_name">DreamShop</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
     <string name="menu_principal">Menú Principal</string>
     <string name="seleccione_uno">Seleccione Uno</string>
     <string name="admin">Admin</string>
@@ -10,6 +9,8 @@
     <string name="bienvenido">¡Bienvenido!</string>
     <string name="password">Contraseña</string>
     <string name="settings">Ajustes</string>
+    <string name="user">Usuarios</string>
+    <string name="unete">Unirse</string>
     <string name="user">Usuario</string>
     <string name="unete">¡Únete!</string>
     <string name="sharebutt">Compartir</string>
