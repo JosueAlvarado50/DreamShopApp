@@ -20,14 +20,18 @@
             android:exported="false" />
         <activity
             android:name=".Settings"
+            android:parentActivityName=".PrincipalActivity"
+
             android:exported="false" />
         <activity
             android:name=".Registro"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
+
             android:exported="false" />
-        <activity android:name=".ProductoDetallesActivity" />
+        <activity android:name=".ProductoDetallesActivity"
+            android:parentActivityName=".PrincipalActivity"/>
         <activity android:name=".AgregarproductoActivity" />
         <activity android:name=".PerfilActivity" />
         <activity android:name=".SetupAdminActivity" />
@@ -37,6 +41,7 @@
         <activity android:name=".CarritoActivity" />
         <activity
             android:name=".PrincipalActivity"
+
             android:theme="@style/Theme.Sneakerapp3.NoActionBar" />
         <activity android:name=".LoginAdminActivity" />
         <activity android:name=".LoginActivity" />
