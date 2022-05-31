@@ -10,7 +10,7 @@
         android:id="@+id/texto23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Confirmar compra"
+        android:text="@string/confirmar_compra"
         android:textSize="24dp"
         android:textColor="@color/purple_500"
         android:layout_margin="15dp"
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/texto23"
         android:layout_margin="35dp"
-        android:hint="Nombre"
+        android:hint="@string/nombre"
         android:background="@drawable/textos"
         android:padding="10dp"/>
     <EditText
@@ -33,7 +33,7 @@
         android:layout_marginRight="35dp"
         android:layout_marginLeft="35dp"
         android:inputType="textEmailAddress"
-        android:hint="Correo"
+        android:hint="@string/correo"
         android:background="@drawable/textos"
         android:padding="10dp"/>
     <EditText
@@ -44,7 +44,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginRight="35dp"
         android:layout_marginLeft="35dp"
-        android:hint="direccion"
+        android:hint="@string/direccion"
         android:background="@drawable/textos"
         android:padding="10dp"/>
     <EditText
@@ -56,7 +56,7 @@
         android:layout_marginRight="35dp"
         android:layout_marginLeft="35dp"
         android:inputType="phone"
-        android:hint="telefono"
+        android:hint="@string/telefono"
         android:background="@drawable/textos"
         android:padding="10dp"/>
     <Button
@@ -67,7 +67,7 @@
         android:layout_marginBottom="25dp"
         android:layout_marginRight="35dp"
         android:layout_marginLeft="35dp"
-        android:text="Finalizar compra"
+        android:text="@string/finalizar_compra"
         android:textColor="@color/white"
         android:textSize="16dp"
         android:backgroundTint="@color/purple_500"

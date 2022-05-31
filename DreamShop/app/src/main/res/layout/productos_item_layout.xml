@@ -17,7 +17,7 @@
             android:id="@+id/producto_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nombre del producto"
+            android:text="@string/nombre_del_producto"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20dp" />
@@ -40,10 +40,10 @@
 
             android:layout_marginTop="-1dp"
             android:layout_toEndOf="@id/producto_cantidad"
-            android:text="description"
             android:textAlignment="center"
             android:textColor="@color/purple_500"
             android:textSize="16dp"
+            android:text="@string/descripcion_del_producto"
             android:textStyle="bold" />
 
         <TextView
@@ -52,12 +52,11 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/producto_imagen"
             android:layout_alignParentEnd="true"
-
             android:layout_marginStart="69dp"
             android:layout_marginTop="0dp"
             android:layout_marginEnd="23dp"
             android:layout_toEndOf="@+id/producto_descripcion1"
-            android:text="Descripcion del producto"
+            android:text="@string/descripcion_del_producto"
             android:textAlignment="center"
             android:textColor="@color/purple_500"
             android:textSize="16dp" />
@@ -67,11 +66,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/producto_descripcion"
+            android:text="@string/cantidad_000"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="10dp"
             android:layout_marginTop="21dp"
             android:layout_marginBottom="18dp"
-            android:text="Cantidad: 000"
             android:textAlignment="center"
             android:textColor="@color/purple_500"
             android:textSize="20dp" />
