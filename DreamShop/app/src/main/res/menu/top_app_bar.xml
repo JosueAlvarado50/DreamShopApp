@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_verified_user_24"
+        android:title="@string/settings"
+        android:contentDescription="@string/configuraciones"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/darkMode"
+        android:icon="@drawable/ic_baseline_dark_mode_24"
+        android:title="@string/dark_mode"
+        android:contentDescription="@string/cambio_de_tema"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:title="@string/mi_perfil"
+        android:contentDescription="@string/datos_de_la_cuenta"
+        app:showAsAction="never" />
+
+</menu>

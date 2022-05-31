@@ -7,8 +7,38 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
+<<<<<<< Updated upstream
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
+=======
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                app:title="Productos"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="15dp"
+            android:src="@drawable/cart1"/>
+
+        <include layout="@layout/contenido_principal"/>
+>>>>>>> Stashed changes
 
     <Toolbar
         android:layout_width="match_parent"

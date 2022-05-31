@@ -33,7 +33,7 @@
         android:textAlignment="center"
         android:layout_centerVertical="true"
         android:text="@string/su_compra_fue_exitosa"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:visibility="gone"/>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -55,7 +55,7 @@
         android:layout_marginBottom="9dp"
         android:text="@string/efectivo"
         android:textColor="#4CAF50"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/siguiente"
@@ -67,10 +67,9 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="8dp"
-        android:layout_toRightOf="@id/siguiente_proceso"
+        android:layout_toEndOf="@id/siguiente_proceso"
         android:text="@string/paypal"
         android:textColor="#2196F3"
-        android:textSize="20dp" />
-
+        android:textSize="20sp" />
 
 </RelativeLayout>

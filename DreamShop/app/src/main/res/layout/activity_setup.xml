@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SetupActivity">
+
     <TextView
         android:id="@+id/encabezado"
         android:layout_width="match_parent"
@@ -24,10 +25,15 @@
         android:layout_height="200dp"
         android:layout_below="@id/encabezado"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
         android:scaleType="centerInside"
+<<<<<<< Updated upstream
         android:src="@drawable/welcome"
         android:visibility="visible"
+=======
+        android:src="@drawable/agregarimagen"
+>>>>>>> Stashed changes
         app:civ_border_color="@color/black"
         app:civ_border_width="2dp" />
 
@@ -93,10 +99,17 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/setup_ciudad"
         android:layout_marginLeft="20dp"
+<<<<<<< Updated upstream
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/botones1"
         android:padding="5dp"
+=======
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/botones1"
+        android:padding="10dp"
+>>>>>>> Stashed changes
         android:text="@string/continuar"
         android:textSize="20sp" />
 </RelativeLayout>

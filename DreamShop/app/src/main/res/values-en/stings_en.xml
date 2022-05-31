@@ -25,22 +25,15 @@
     <string name="passwordconfirmation">Confirm password</string>
     <string name="yatienescuenta">Do you have an account?</string>
     <string name="yatienescuentabutton">"Tap here "</string>
-    <string name="Coolers">The cocktails are long drinks prepared with liquor or distillate, carbonated drink (Ginger Ale, Cider or Chanpagne).</string>
-    <string name="longdrinksDescr">They are served with a long glass and are prepared with fruit juice, sparkling drinks, carbonated waters and ice.</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="ofertas">Offers</string>
     <string name="featured">Featured</string>
     <string name="enviaremail">Send email</string>
     <string name="Contactanos">Contact us</string>
     <string name="Estamosdispo">We are available at 24 hours.</string>
-    <string name="Special">Day Special</string>
     <string name="contacto">Contact</string>
     <string name="Acercadenosotros">We are a group of programmers with the goal of optimizing a commerce methodology such as a restaurant, optimizing the customer order form making use of the most recently smartphones technologies</string>
     <string name="Configuracion">Settings</string>
-    <string name="food">Food</string>
-    <string name="drinks">Drinks</string>
-    <string name="desserts">Desserts</string>
-    <string name="daise">Daisies are a type of cocktail typical of the summer season, made with lemon, grenadine and as a base drink brandy, rum or gin.</string>
     <string name="acercade">About us</string>
     <string name="agregar_producto">Add product</string>
     <string name="nombre_del_producto">Product name</string>
@@ -69,7 +62,11 @@
     <string name="continuar">Continue</string>
     <string name="fecha_y_hora">Datetime</string>
     <string name="ver_orden">View order</string>
+<<<<<<< Updated upstream
     <string name="cantidad_000">Amount: 000</string>
     <string name="cerrar_sesion">Sign Out</string>
     <string name="bienvenidoadmin">Welcome Admin!</string>
+=======
+    <string name="cantidad">Amount</string>
+>>>>>>> Stashed changes
 </resources>

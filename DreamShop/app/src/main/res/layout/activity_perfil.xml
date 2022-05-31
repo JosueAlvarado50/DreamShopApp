@@ -28,8 +28,12 @@
         android:layout_marginTop="20dp"
         android:src="@drawable/user"
         app:civ_border_color="@color/black"
+<<<<<<< Updated upstream
         app:civ_border_width="2dp"
         tools:visibility="visible" />
+=======
+        app:civ_border_width="2dp" />
+>>>>>>> Stashed changes
 
     <EditText
         android:id="@+id/perfil_nombre"
@@ -40,20 +44,27 @@
         android:padding="10dp"
         android:background="@drawable/textos"
         android:inputType="text"
-        android:layout_margin="20dp"/>
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"/>
 
     <EditText
         android:id="@+id/perfil_direccion"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/perfil_nombre"
+        android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/textos"
         android:hint="@string/direccion"
         android:inputType="text"
+<<<<<<< Updated upstream
         android:padding="10dp"
         android:layout_margin="20dp" />
+=======
+        android:padding="10dp"/>
+>>>>>>> Stashed changes
 
     <EditText
         android:id="@+id/perfil_telefono"
@@ -64,9 +75,13 @@
         android:padding="10dp"
         android:background="@drawable/textos"
         android:inputType="phone"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
+<<<<<<< Updated upstream
         android:layout_margin="20dp"/>
+=======
+        android:layout_marginRight="20dp"/>
+>>>>>>> Stashed changes
 
     <EditText
         android:id="@+id/perfil_ciudad"
@@ -77,20 +92,27 @@
         android:padding="10dp"
         android:background="@drawable/textos"
         android:inputType="text"
-        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
+<<<<<<< Updated upstream
         android:layout_margin="20dp"/>
+=======
+        android:layout_marginRight="20dp"/>
+>>>>>>> Stashed changes
 
     <Button
         android:id="@+id/perfil_boton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/perfil_ciudad"
+        android:layout_marginTop="75dp"
         android:layout_marginLeft="20dp"
+<<<<<<< Updated upstream
         android:layout_marginTop="20dp"
+=======
+>>>>>>> Stashed changes
         android:layout_marginRight="20dp"
         android:background="@drawable/botones1"
-
         android:padding="10dp"
         android:text="@string/guardar"
         android:textSize="20sp" />

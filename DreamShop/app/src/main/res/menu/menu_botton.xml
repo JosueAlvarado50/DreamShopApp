@@ -12,7 +12,11 @@
         android:icon="@drawable/ic_lista"/>
     <item
         android:id="@+id/fragmentTres"
+<<<<<<< Updated upstream
         android:title="@string/perfil"
+=======
+        android:title="@string/mi_perfil"
+>>>>>>> Stashed changes
         android:icon="@drawable/ic_person"/>
     <item
         android:id="@+id/fragmentCuatro"

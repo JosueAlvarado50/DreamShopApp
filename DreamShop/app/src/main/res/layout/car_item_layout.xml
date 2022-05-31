@@ -21,8 +21,8 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:text="@string/nombre_del_producto"
-            android:layout_marginLeft="5dp"
-            android:textSize="15dp"
+            android:layout_marginStart="5dp"
+            android:textSize="15sp"
             android:textColor="@color/white"/>
 
         <TextView
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:text="@string/cantidad_producto"
             android:layout_marginLeft="5dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:textColor="@color/white"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="5dp"/>
@@ -42,7 +42,7 @@
             android:layout_height="wrap_content"
             android:text="@string/precio_del_producto"
             android:layout_marginLeft="5dp"
-            android:textSize="15dp"
+            android:textSize="15sp"
             android:textColor="@color/white"
             android:layout_alignParentEnd="true"
             android:layout_marginRight="5dp"

@@ -44,6 +44,14 @@ public class LoginAdminActivity extends AppCompatActivity{
             public void onClick(View view) { iniciarSesion();
             }
         });
+        registrate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(LoginAdminActivity.this, Registro.class);
+                startActivity(i);
+
+            }
+        });
 
     }
     public void onStart() {

@@ -4,6 +4,7 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+
         <item
             android:id="@+id/nav_carrito"
             android:icon="@drawable/cart1"
@@ -12,10 +13,24 @@
             android:id="@+id/nav_perfil"
             android:icon="@drawable/user"
             android:title="@string/mi_perfil"/>
+<<<<<<< Updated upstream
+=======
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_verified_user_24"
+            android:title="@string/settings"
+            android:contentDescription="@string/configuraciones"
+            app:showAsAction="ifRoom" />
+>>>>>>> Stashed changes
         <item
             android:id="@+id/nav_salir"
             android:icon="@drawable/exit"
             android:title="@string/cerrar_sesion"/>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     </group>
 
 </menu>

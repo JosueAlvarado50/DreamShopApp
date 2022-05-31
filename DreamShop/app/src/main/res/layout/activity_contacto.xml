@@ -17,25 +17,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/Estamosdispo"
-            android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="@+id/textView13"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.28" />
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonemail"
+            app:layout_constraintEnd_toEndOf="@+id/textView13"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toTopOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.711" />
 
         <TextView
             android:id="@+id/textView33"
             android:layout_width="267dp"
             android:layout_height="62dp"
             android:text="@string/share"
-            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="@+id/textView13"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.569"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.593" />
+            app:layout_constraintEnd_toEndOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="@+id/textView13"
+            app:layout_constraintTop_toTopOf="@+id/textView13"
+            app:layout_constraintVertical_bias="0.707" />
 
         <TextView
             android:id="@+id/textView13"
@@ -43,7 +44,7 @@
             android:layout_height="612dp"
             android:text="@string/Contactanos"
             android:textAlignment="center"
-            android:textSize="30dp"
+            android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.493"
@@ -59,11 +60,11 @@
             android:text="@string/enviaremail"
             android:textColor="#2980B9"
             app:layout_constraintBottom_toBottomOf="@+id/textView13"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.367"
+            app:layout_constraintEnd_toEndOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.504"
             app:layout_constraintStart_toStartOf="@+id/textView13"
             app:layout_constraintTop_toTopOf="@+id/textView13"
-            app:layout_constraintVertical_bias="0.359" />
+            app:layout_constraintVertical_bias="0.323" />
 
         <Button
             android:id="@+id/buttonwhatscomp"
@@ -73,14 +74,12 @@
             android:text="@string/sharebutt"
             android:textColor="#28B463"
             app:layout_constraintBottom_toBottomOf="@+id/textView13"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.367"
+            app:layout_constraintEnd_toEndOf="@+id/textView13"
+            app:layout_constraintHorizontal_bias="0.504"
             app:layout_constraintStart_toStartOf="@+id/textView13"
             app:layout_constraintTop_toTopOf="@+id/textView13"
-            app:layout_constraintVertical_bias="0.764" />
-
+            app:layout_constraintVertical_bias="0.861" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </FrameLayout>

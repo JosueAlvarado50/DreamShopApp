@@ -46,8 +46,12 @@
             android:layout_marginRight="5dp"
             android:gravity="center"
             android:text="@string/precio_del_producto"
+<<<<<<< Updated upstream
             android:textSize="18sp"
             android:padding="5dp"/>
+=======
+            android:textSize="18sp" />
+>>>>>>> Stashed changes
 
         <TextView
             android:textColor="@color/white"
@@ -61,8 +65,12 @@
             android:layout_marginRight="5dp"
             android:gravity="center"
             android:text="@string/correo_y_direccion"
+<<<<<<< Updated upstream
             android:textSize="18sp"
             android:padding="5dp"/>
+=======
+            android:textSize="18sp" />
+>>>>>>> Stashed changes
 
         <TextView
             android:textColor="@color/white"
@@ -76,8 +84,12 @@
             android:layout_marginRight="5dp"
             android:gravity="center"
             android:text="@string/fecha_y_hora"
+<<<<<<< Updated upstream
             android:textSize="18sp"
             android:padding="5dp"/>
+=======
+            android:textSize="18sp" />
+>>>>>>> Stashed changes
 
         <Button
             android:textColor="@color/purple_500"

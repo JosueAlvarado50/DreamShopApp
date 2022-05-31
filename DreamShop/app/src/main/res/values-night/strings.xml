@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< Updated upstream
     <string name="productos">Productos</string>
     <string name="agregar_producto">Agregar producto</string>
     <string name="correo_y_direccion">Correo y Dirección</string>
@@ -9,4 +10,20 @@
     <string name="inventario">Inventario</string>
     <string name="perfil">Perfil</string>
     <string name="orden">Orden</string>
+=======
+    <string name="cambio_idioma">Cambio Idioma</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="correo_y_direccion">Correo y Dirección</string>
+    <string name="Existencia">Existencias</string>
+    <string name="costo">Costo: $</string>
+    <string name="carrito">Carrito</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="configuraciones">Configuraciones</string>
+    <string name="inicio">Inicio</string>
+    <string name="inventario">Inventario</string>
+    <string name="orden">Orden</string>
+    <string name="dark_mode">Modo Oscuro</string>
+    <string name="cambio_de_tema">Cambio de tema</string>
+    <string name="datos_de_la_cuenta">Datos de la cuenta</string>
+>>>>>>> Stashed changes
 </resources>
