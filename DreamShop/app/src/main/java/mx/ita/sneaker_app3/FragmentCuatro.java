@@ -36,7 +36,6 @@ public class FragmentCuatro extends Fragment {
     public FragmentCuatro() {
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         Vista = inflater.inflate(R.layout.fragment_cuatro, container, false);
@@ -59,6 +58,7 @@ public class FragmentCuatro extends Fragment {
                 holder.correo.setText("Correo: " +model.getCorreo() + "\nDir: " + model.getDireccion());
                 holder.fecha.setText("Fecha: "+model.getFecha()+ "Hora: " + model.getHora());
                 holder.nombre.setText(model.getNombre());
+
                 holder.boton.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -67,10 +67,6 @@ public class FragmentCuatro extends Fragment {
 
                     }
                 });
-
-
-
-
             }
 
             @NonNull
@@ -98,6 +94,7 @@ public class FragmentCuatro extends Fragment {
             fecha = itemView.findViewById(R.id.orden_fecha);
             correo = itemView.findViewById(R.id.orden_correo);
             boton = (Button) itemView.findViewById(R.id.orden_ver);
+
 
         }
     }

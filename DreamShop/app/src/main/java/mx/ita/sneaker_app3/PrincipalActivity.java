@@ -64,6 +64,7 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
         layoutManager= new LinearLayoutManager(this);
         recyclerMenu.setLayoutManager(layoutManager);
         botonFlotante = (FloatingActionButton)findViewById(R.id.fab);
+
         botonFlotante.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

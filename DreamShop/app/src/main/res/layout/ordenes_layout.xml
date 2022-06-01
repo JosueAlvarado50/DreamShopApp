@@ -77,7 +77,6 @@
             android:textSize="18dp" />
 
         <Button
-            android:textColor="@color/purple_500"
             android:id="@+id/orden_ver"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -86,7 +85,8 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="35dp"
             android:backgroundTint="@color/white"
-            android:text="@string/ver_orden" />
+            android:text="@string/ver_orden"
+            android:textColor="@color/purple_500" />
 
 
     </RelativeLayout>

@@ -146,10 +146,7 @@ public class CarritoActivity extends AppCompatActivity {
 
                     }
                 });
-
-
             }
-
             @NonNull
             @Override
             public CarritoViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -163,9 +160,6 @@ public class CarritoActivity extends AppCompatActivity {
 
         recyclerView.setAdapter(adapter);
         adapter.startListening();
-
-
-
     }
 
     private void VerificarOrden() {
@@ -184,6 +178,8 @@ public class CarritoActivity extends AppCompatActivity {
                         mensaje1.setText("Su pedido sera enviado pronto");
                         mensaje1.setVisibility(View.VISIBLE);
                         Siguiente.setVisibility(View.GONE);
+                        estado = "confirmado";
+
                     }else if(estado.equals("No Enviado")){
                         TotalPrecio.setText("Su orden esta siendo procesada");
                         recyclerView.setVisibility(View.GONE);
@@ -199,6 +195,11 @@ public class CarritoActivity extends AppCompatActivity {
             public void onCancelled(@NonNull DatabaseError error) {
 
             }
+            private void validarOrden(){
+
+            }
+
+
         });
     }
 }
