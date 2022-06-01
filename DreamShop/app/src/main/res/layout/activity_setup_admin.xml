@@ -14,6 +14,7 @@
         android:background="@color/white"
         android:padding="15dp"
         android:text="@string/registrarse"
+        android:textSize="20sp"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textStyle="bold|italic" />
@@ -39,6 +40,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
+        android:layout_margin="15dp"
         android:background="@drawable/textos"
         android:hint="@string/nombre"
         android:inputType="text"
@@ -54,6 +56,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/textos"
         android:hint="@string/direccion"
+        android:layout_margin="15dp"
         android:inputType="text"
         android:padding="10dp"
         android:textAlignment="center" />
@@ -65,6 +68,7 @@
         android:layout_below="@id/admsetup_direccion"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
+        android:layout_margin="15dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/textos"
         android:hint="@string/telefono"
@@ -78,6 +82,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/admsetup_telefono"
         android:layout_marginLeft="20dp"
+        android:layout_margin="15dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/textos"
@@ -92,12 +97,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/admsetup_ciudad"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="80dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/botones1"
-
         android:padding="10dp"
         android:text="@string/continuar"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 
 </RelativeLayout>

@@ -13,11 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:background="@color/purple_500"
-        android:padding="15dp"
+        android:padding="20sp"
         android:text="@string/agregar_producto"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold|italic" />
+        android:textStyle="bold|italic"
+        android:textSize="20sp"/>
 
     <ImageView
         android:id="@+id/imagenpro"
@@ -109,7 +110,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginStart="131dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="527dp"
+        android:layout_marginTop="550dp"
         android:layout_marginEnd="130dp"
         android:layout_marginRight="40dp"
         android:background="@drawable/botones1"
@@ -117,6 +118,6 @@
         android:padding="10dp"
         android:text="@string/agregar"
         android:textAllCaps="false"
-        android:textSize="18dp" />
+        android:textSize="18sp" />
 
 </RelativeLayout>

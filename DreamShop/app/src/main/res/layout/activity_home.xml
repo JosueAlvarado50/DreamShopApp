@@ -21,24 +21,17 @@
             android:id="@+id/imageView2"
             android:layout_width="276dp"
             android:layout_height="231dp"
+            android:layout_marginBottom="50dp"
             app:srcCompat="@drawable/logodream" />
 
         <TextView
             android:id="@+id/textView18"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="bienvenidas"
+            android:text="@string/bienvenido"
             android:textAlignment="center"
-            android:textSize="30dp" />
-
-        <TextView
-            android:id="@+id/textView30"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textAlignment="center"
-            android:textSize="30dp" />
-
+            android:textSize="30sp"
+            android:layout_marginBottom="30dp"/>
 
         <Button
             android:id="@+id/botonusuario"
@@ -46,8 +39,8 @@
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="@string/user"
-
-            android:textSize="15dp" />
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/botonadmin"
@@ -55,7 +48,7 @@
             android:layout_width="250dp"
             android:layout_height="80dp"
             android:text="@string/admin"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/settings"
@@ -63,7 +56,8 @@
             android:layout_width="236dp"
             android:layout_height="41dp"
             android:text="@string/settings"
-            android:textSize="15dp" />
+            android:layout_marginTop="30dp"
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/Contacto"
@@ -71,6 +65,6 @@
             android:layout_width="236dp"
             android:layout_height="41dp"
             android:text="@string/contacto"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

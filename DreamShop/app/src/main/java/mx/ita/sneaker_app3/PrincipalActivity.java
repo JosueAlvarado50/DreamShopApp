@@ -72,9 +72,6 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
                 startActivity(i);
             }
         });
-
-
-
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawerLayout, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -93,13 +90,8 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
                     String imagen = snapshot.child("imagen").getValue().toString();
                     nombreHeader.setText(snapshot.child("nombre").getValue().toString());
                     Picasso.get().load(imagen).error(R.drawable.welcome).into(imagenHeader);
-
-
                 }else if(snapshot.exists()){
                     nombreHeader.setText(snapshot.child("nombre").getValue().toString());
-
-
-
                 }
             }
 
@@ -121,10 +113,8 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
         }else{
             VerificarUsuarioExistente();
         }
-
         FirebaseRecyclerOptions<Productos> options = new FirebaseRecyclerOptions.Builder<Productos>()
                 .setQuery(ProductosRef, Productos.class).build();
-
         FirebaseRecyclerAdapter<Productos, ProductoViewHolder> adapter = new FirebaseRecyclerAdapter<Productos, ProductoViewHolder>(options) {
             @Override
             protected void onBindViewHolder(@NonNull ProductoViewHolder holder, int position, @NonNull Productos model) {
@@ -144,24 +134,17 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
                   }
                 });
             }
-
             @NonNull
             @Override
             public ProductoViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
-
                 View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.productos_item_layout, viewGroup, false);
                 ProductoViewHolder holder = new ProductoViewHolder(view);
-
-
                 return holder;
             }
         };
-
         recyclerMenu.setAdapter(adapter);
         adapter.startListening();
-
     }
-
     @Override
     public void onBackPressed() {// cerrar navigation
         DrawerLayout drawerLayout = (DrawerLayout)  findViewById(R.id.drawer_layout);
@@ -171,7 +154,6 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
             super.onBackPressed();
         }
     }
-
     private void VerificarUsuarioExistente(){
         final String SurrentUserId = auth.getCurrentUser().getUid();
         UserRef.addValueEventListener(new ValueEventListener() {
@@ -179,25 +161,19 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 if(!snapshot.hasChild(CurrentUserId)){
                     EnviaralSetup();
-
                 }
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-
             }
         });
-
     }
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         super.onCreateOptionsMenu(menu);
         getMenuInflater().inflate(R.menu.activity_principal_drawer, menu);
         return true;
     }
-
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
 
@@ -212,14 +188,15 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
         else if(id == R.id.nav_salir){
             auth.signOut();
             EnviaralLogin();
-
         }
         else if(id == R.id.nav_settings){
             auth.signOut();
             ActivitySettings();
-
         }
-
+        else if(id == R.id.nav_contactanos){
+            auth.signOut();
+            ActivityContactanos();
+        }
         return true;
     }
 
@@ -243,10 +220,20 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
             ActivitySettings();
 
         }
+        else if(id == R.id.nav_contactanos){
+            auth.signOut();
+            ActivityContactanos();
+
+        }
 
         DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;
+    }
+    private void ActivityContactanos() {
+        Toast.makeText(this, "Contactanos", Toast.LENGTH_SHORT).show();
+        Intent i = new Intent(PrincipalActivity.this, Contacto.class);
+        startActivity(i);
     }
 
     private void ActivityPerfil() {
@@ -294,8 +281,5 @@ public class PrincipalActivity extends AppCompatActivity implements NavigationVi
         i.putExtra("phone", Telefono);
         startActivity(i);
         finish();
-
     }
-
-
 }

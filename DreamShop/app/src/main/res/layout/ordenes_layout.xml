@@ -18,10 +18,10 @@
             android:id="@+id/orden_nombre"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:text="@string/nombre"
             android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <TextView
             android:id="@+id/orden_telefono"
@@ -32,7 +32,7 @@
             android:layout_marginRight="5dp"
             android:textColor="@color/white"
             android:text="@string/telefono"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
 
         <TextView
             android:textColor="@color/white"
@@ -46,10 +46,9 @@
             android:layout_marginRight="5dp"
             android:gravity="center"
             android:text="@string/precio_del_producto"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
 
         <TextView
-            android:textColor="@color/white"
             android:id="@+id/orden_correo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -59,8 +58,9 @@
             android:layout_marginTop="5dp"
             android:layout_marginRight="5dp"
             android:gravity="center"
-            android:text="Correo y Direccion"
-            android:textSize="18dp" />
+            android:text="@string/correo_y_direccion"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
 
         <TextView
             android:textColor="@color/white"
@@ -74,7 +74,7 @@
             android:layout_marginRight="5dp"
             android:gravity="center"
             android:text="@string/fecha_y_hora"
-            android:textSize="18dp" />
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/orden_ver"

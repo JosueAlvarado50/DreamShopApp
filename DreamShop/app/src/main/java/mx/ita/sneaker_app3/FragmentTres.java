@@ -17,6 +17,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -46,7 +47,8 @@ public class FragmentTres extends Fragment {
     private EditText nombre, direccion, telefono, ciudad, edad;
     private Button guardar;
     private String phone = "";
-    private CircleImageView imagen;
+
+    private ImageView imagen;
     private FirebaseAuth auth;
     private DatabaseReference UserRef;
     private ProgressDialog dialog;
@@ -79,7 +81,7 @@ public class FragmentTres extends Fragment {
         telefono = (EditText)fragmento.findViewById(R.id.admperfil_telefono);
         guardar = (Button)fragmento.findViewById(R.id.admperfil_boton);
         salir = (Button)fragmento.findViewById(R.id.salir);
-        imagen=(CircleImageView)fragmento.findViewById(R.id.admperfil_imagen);
+        imagen=fragmento.findViewById(R.id.admperfil_imagen);
 
         UserRef.child(CurrentUserId).addValueEventListener(new ValueEventListener() {
             @Override
@@ -93,7 +95,7 @@ public class FragmentTres extends Fragment {
                     String telefonos = snapshot.child("telefono").getValue().toString();
                     String imagens = snapshot.child("imagen").getValue().toString();
 
-                    Picasso.get().load(imagens).placeholder(R.drawable.welcome).into(imagen);
+                    Picasso.get().load(imagens).placeholder(R.drawable.logodream).into(imagen);
 
                     nombre.setText(nombres);
                     direccion.setText(direccions);
@@ -152,7 +154,7 @@ public class FragmentTres extends Fragment {
                 if(snapshot.exists()){
                     if(snapshot.hasChild("imagen")){
                         String imagestr = snapshot.child("imagen").getValue().toString();
-                        Picasso.get().load(imagestr).placeholder(R.drawable.welcome).into(imagen);
+                        Picasso.get().load(imagestr).placeholder(R.drawable.logodream).into(imagen);
                     }else{
                         Toast.makeText(getContext(), "Selecciona una imagen de perfil", Toast.LENGTH_SHORT).show();
                     }
@@ -270,10 +272,7 @@ public class FragmentTres extends Fragment {
                     }
                 }
             });
-
-
         }
-
     }
 
     private void EnviaralInicio(){

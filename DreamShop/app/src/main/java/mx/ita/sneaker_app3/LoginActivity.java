@@ -37,8 +37,6 @@ public class LoginActivity extends AppCompatActivity{
         mAuth = FirebaseAuth.getInstance();
         iniciar = findViewById(R.id.iniciar);
 
-
-
         iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { iniciarSesion();
