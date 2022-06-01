@@ -16,8 +16,24 @@ public class Settings extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
 
-        noche = findViewById(R.id.buttonnoche);
+        //boton de idiomas inicio
+        Button en=findViewById(R.id.btnIdioma);
+        Button es=findViewById(R.id.BtnEspañol);
+        LanguageManager lang = new LanguageManager(this);
+        //boton ingles
+        en.setOnClickListener(view ->
+        {
+            lang.updateResource("en");
+            recreate();
+        });
+        es.setOnClickListener(view ->
+        {
+            lang.updateResource("es");
+            recreate();
+        });
+//boton de idiomas cierre
 
+        noche = findViewById(R.id.buttonnoche);
 
         noche.setOnClickListener(new View.OnClickListener() {
             @Override

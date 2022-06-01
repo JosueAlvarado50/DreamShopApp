@@ -69,6 +69,8 @@
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/drawable-v24/botones2.xml" value="0.1055" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/drawable-v24/textos.xml" value="0.15" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/drawable/agregarimagen.xml" value="0.1055" />
+        <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/drawable/ic_baseline_bedtime_24.xml" value="0.129" />
+        <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/drawable/ic_baseline_verified_user_24.xml" value="0.1365" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout-land/activity_carrito.xml" value="0.19091710758377425" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout-land/activity_producto_detalles.xml" value="0.33" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/activity_admin.xml" value="0.25" />
@@ -89,7 +91,7 @@
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/activity_setup_admin.xml" value="0.25" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/activity_splash.xml" value="0.15579710144927536" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/app_bar_principal.xml" value="0.2" />
-        <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/app_layout_principal.xml" value="0.25" />
+        <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/app_layout_principal.xml" value="0.2" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/car_item_layout.xml" value="0.25" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/contenido_principal.xml" value="0.15579710144927536" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/fragment_cuatro.xml" value="0.15579710144927536" />
@@ -100,7 +102,7 @@
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/nav_header_principal.xml" value="0.25" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/ordenes_layout.xml" value="0.25" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/producto_item_layout.xml" value="0.33" />
-        <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/productos_item_layout.xml" value="0.25" />
+        <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/layout/productos_item_layout.xml" value="0.22" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/menu/activity_principal_drawer.xml" value="0.5" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/menu/menu_botton.xml" value="0.22552083333333334" />
         <entry key="..\:/ITA/4 D. App. M. 4/Tema III/Archivos/ProyectoAppDS/DreamShopApp/DreamShop/app/src/main/res/menu/top_app_bar.xml" value="0.21388888888888888" />

@@ -62,11 +62,8 @@
     <string name="continuar">Continue</string>
     <string name="fecha_y_hora">Datetime</string>
     <string name="ver_orden">View order</string>
-<<<<<<< Updated upstream
     <string name="cantidad_000">Amount: 000</string>
     <string name="cerrar_sesion">Sign Out</string>
     <string name="bienvenidoadmin">Welcome Admin!</string>
-=======
     <string name="cantidad">Amount</string>
->>>>>>> Stashed changes
 </resources>

@@ -16,12 +16,7 @@
         android:textColor="@color/black"
         android:padding="10dp"
         android:textStyle="bold|italic"
-<<<<<<< Updated upstream
-        android:textSize="18sp"/>
-=======
         android:textSize="20sp"/>
-
->>>>>>> Stashed changes
 
     <ImageView
         android:id="@+id/comics"

@@ -24,12 +24,8 @@
         android:textColor="@color/white"
         android:gravity="center"
         android:textSize="20sp"
-<<<<<<< Updated upstream
-        android:layout_marginTop="10dp" />
-=======
         android:layout_marginTop="15dp" />
 
->>>>>>> Stashed changes
     <TextView
         android:id="@+id/producto_descripcion_detalles"
         android:layout_width="match_parent"
@@ -39,12 +35,8 @@
         android:textColor="@color/white"
         android:gravity="center"
         android:textSize="20sp"
-<<<<<<< Updated upstream
-        android:layout_marginTop="10dp" />
-=======
         android:layout_marginTop="15dp" />
 
->>>>>>> Stashed changes
     <TextView
         android:id="@+id/producto_precio_detalles"
         android:layout_width="match_parent"
@@ -54,11 +46,7 @@
         android:textColor="@color/white"
         android:gravity="center"
         android:textSize="20sp"
-<<<<<<< Updated upstream
-        android:layout_marginTop="10dp" />
-=======
         android:layout_marginTop="15dp" />
->>>>>>> Stashed changes
 
     <EditText
         android:id="@+id/cantidad_producto_detalles"
@@ -74,11 +62,7 @@
         android:inputType="number"
         android:padding="10dp"
         android:textColor="@color/white"
-<<<<<<< Updated upstream
-        android:textSize="20sp"
-=======
         android:textSize="18sp"
->>>>>>> Stashed changes
         android:textStyle="bold" />
 
     <Button

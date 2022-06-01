@@ -103,10 +103,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/botones1"
-<<<<<<< Updated upstream
         android:layout_margin="20dp"
-=======
->>>>>>> Stashed changes
         android:padding="10dp"
         android:text="@string/continuar"
         android:textSize="20sp" />

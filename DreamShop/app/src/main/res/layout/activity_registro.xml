@@ -23,11 +23,7 @@
             android:text="@string/registrarse"
             android:textAlignment="center"
             android:textSize="30sp"
-<<<<<<< Updated upstream
-            android:paddingBottom="30sp"/>
-=======
             android:layout_marginBottom="30dp"/>
->>>>>>> Stashed changes
 
         <TextView
             android:id="@+id/textView27"
@@ -35,12 +31,8 @@
             android:layout_height="wrap_content"
             android:text="@string/yatienescuenta"
             android:textAlignment="center"
-<<<<<<< Updated upstream
-            android:textSize="18sp" />
-=======
             android:textSize="18sp"
             android:layout_marginTop="30dp"/>
->>>>>>> Stashed changes
 
         <TextView
             android:id="@+id/ingresa"
@@ -50,12 +42,8 @@
             android:textAlignment="center"
             android:textColor="@color/purple_500"
             android:clickable="true"
-<<<<<<< Updated upstream
-            android:textSize="18sp" />
-=======
             android:textSize="18sp"
             android:layout_marginTop="7dp"/>
->>>>>>> Stashed changes
 
         <TextView
             android:id="@+id/textView31"
@@ -64,13 +52,8 @@
             android:text="@string/unete"
             android:textAlignment="center"
             android:textSize="25sp"
-<<<<<<< Updated upstream
-            android:paddingTop="30sp"
-            android:paddingBottom="15sp"/>
-=======
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"/>
->>>>>>> Stashed changes
 
         <TextView
             android:id="@+id/textView21"
@@ -86,13 +69,9 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-<<<<<<< Updated upstream
-            android:text=""/>
-
-=======
             android:text=""
             android:layout_marginBottom="15dp"/>
->>>>>>> Stashed changes
+
         <TextView
             android:id="@+id/textView22"
             android:layout_width="match_parent"
@@ -107,23 +86,15 @@
             android:ems="10"
             android:inputType="textPassword"
             android:minHeight="48dp"
-<<<<<<< Updated upstream
-            tools:ignore="SpeakableTextPresentCheck" />
-=======
             tools:ignore="SpeakableTextPresentCheck"
             android:layout_marginBottom="15dp" />
->>>>>>> Stashed changes
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/passwordconfirmation"
-<<<<<<< Updated upstream
-            android:textSize="20dp" />
-=======
             android:textSize="20sp" />
->>>>>>> Stashed changes
 
         <EditText
             android:id="@+id/passconfirmation"
@@ -132,11 +103,7 @@
             android:ems="10"
             android:inputType="textPassword"
             android:minHeight="48dp"
-<<<<<<< Updated upstream
-            tools:ignore="SpeakableTextPresentCheck"/>
-=======
             tools:ignore="SpeakableTextPresentCheck" />
->>>>>>> Stashed changes
 
         <Button
             android:id="@+id/iniciar"
@@ -145,12 +112,8 @@
             android:layout_height="61dp"
             android:onClick="registrarUsuario"
             android:text="@string/registrarse"
-<<<<<<< Updated upstream
-            android:layout_margin="20sp"/>
-
-=======
             android:layout_marginTop="15dp"/>
->>>>>>> Stashed changes
+
         <TextView
             android:id="@+id/textView24"
             android:layout_width="match_parent"
@@ -158,11 +121,7 @@
             android:text="@string/alunirse"
             android:textAlignment="center"
             android:textSize="15sp"
-<<<<<<< Updated upstream
-            android:layout_marginTop="15sp"/>
-=======
             android:layout_marginTop="45dp"/>
->>>>>>> Stashed changes
 
     </LinearLayout>
 

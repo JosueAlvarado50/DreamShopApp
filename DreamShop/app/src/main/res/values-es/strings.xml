@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DreamShop</string>
     <!-- TODO: Remove or change this placeholder text -->
@@ -81,7 +82,6 @@
     <string name="dark_mode">Modo Oscuro</string>
     <string name="cambio_de_tema">Cambio de tema</string>
     <string name="datos_de_la_cuenta">Datos de la cuenta</string>
-    <string name="idioma_ingles">Cambia a Idioma Inglés</string>
-    <string name="idioma_espa_ol">Cambia a  Español</string>
-
+    <string name="idioma_ingles">Idioma Inglés</string>
+    <string name="idioma_espa_ol">Idioma Español</string>
 </resources>

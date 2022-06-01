@@ -17,8 +17,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:padding="15dp"
-        android:textStyle="bold|italic"
-        android:textSize="20sp"/>
+        android:textStyle="bold|italic"/>
 
     <ImageView
         android:id="@+id/admperfil_imagen"
@@ -27,11 +26,7 @@
         android:layout_below="@id/encabezado"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-<<<<<<< Updated upstream
         android:src="@drawable/user" />
-=======
-        android:src="@drawable/user"/>
->>>>>>> Stashed changes
 
     <EditText
         android:id="@+id/admperfil_nombre"
