@@ -77,10 +77,8 @@ public class ConfirmarordenActivity extends AppCompatActivity {
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat data = new SimpleDateFormat("MM-dd-yyyy");
         CurrentDate = data.format(calendar.getTime());
-
         SimpleDateFormat time = new SimpleDateFormat("HH:mm:ss");
         CurrentTime = time.format(calendar.getTime());
-
         final DatabaseReference OrdenesRef = FirebaseDatabase.getInstance().getReference().child("Ordenes").child(CurrentUserID);
 
         HashMap<String, Object>map = new HashMap<>();
@@ -91,7 +89,7 @@ public class ConfirmarordenActivity extends AppCompatActivity {
         map.put("telefono", telefono.getText().toString());
         map.put("fecha", CurrentDate);
         map.put("hora", CurrentTime);
-        map.put("estado", "Enviado");
+        map.put("estado", "");
 
         OrdenesRef.updateChildren(map).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
