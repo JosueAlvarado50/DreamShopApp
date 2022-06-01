@@ -66,4 +66,21 @@
     <string name="cerrar_sesion">Sign Out</string>
     <string name="bienvenidoadmin">Welcome Admin!</string>
     <string name="cantidad">Amount</string>
+    <string name="productos">Products</string>
+    <string name="correo_y_direccion">E-mail and Address</string>
+    <string name="carrito">Cart</string>
+    <string name="mi_perfil">My Profile</string>
+    <string name="inicio">Home</string>
+    <string name="inventario">Inventory</string>
+    <string name="perfil">Profile</string>
+    <string name="orden">Order</string>
+    <string name="cambio_idioma">Change language</string>
+    <string name="Existencia">Stock</string>
+    <string name="costo">Cost: $</string>
+    <string name="configuraciones">Settings</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="cambio_de_tema">Change theme</string>
+    <string name="datos_de_la_cuenta">Account data</string>
+    <string name="idioma_ingles">Switch English</string>
+    <string name="idioma_espa_ol">Switch Spanish</string>
 </resources>
