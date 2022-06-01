@@ -1,5 +1,6 @@
 package mx.ita.sneaker_app3;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
 
@@ -12,15 +13,44 @@ public class Settings extends AppCompatActivity {
 
         private Button noche;
         int nightMode = AppCompatDelegate.getDefaultNightMode();
+        int banderaIdioma ;//español == 1 && ingles == 2
 
-
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("banderaIdioma", banderaIdioma);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
-        noche = findViewById(R.id.buttonnoche);
 
+        //boton de idiomas inicio
+        Button en=findViewById(R.id.btnIdioma);
+        Button es=findViewById(R.id.BtnEspañol);
+        LanguageManager lang = new LanguageManager(this);
+        //boton ingles
+        en.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                banderaIdioma = 2;
+                lang.updateResource("en");
+                recreate();
+            }
+        });
+        es.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                banderaIdioma = 1;
+                lang.updateResource("es");
+                recreate();
+            }
+        });
+
+//boton de idiomas cierre
+
+        noche = findViewById(R.id.buttonnoche);
         noche.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,6 +66,9 @@ public class Settings extends AppCompatActivity {
                 }
 
             }
+
         });
+
+
     }
 }

@@ -26,7 +26,7 @@
         android:gravity="center"
         android:text="Nombre del producto"
         android:textColor="@color/white"
-        android:textSize="15dp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/producto_descripcion_detalles"
@@ -37,9 +37,9 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="17dp"
         android:gravity="center"
-        android:text="Descripcion del producto"
+        android:text="@string/descripcion_del_producto"
         android:textColor="@color/white"
-        android:textSize="15dp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/producto_precio_detalles"
@@ -50,9 +50,9 @@
         android:layout_marginEnd="38dp"
         android:layout_marginBottom="13dp"
         android:gravity="center"
-        android:text="Precio del producto"
+        android:text="@string/precio_del_producto"
         android:textColor="@color/white"
-        android:textSize="15dp" />
+        android:textSize="15sp" />
 
     <EditText
         android:id="@+id/cantidad_producto_detalles"
@@ -64,11 +64,11 @@
         android:layout_marginEnd="61dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/textos"
-        android:hint="Cantidad"
+        android:hint="@string/cantidad_producto"
         android:inputType="number"
         android:padding="10dp"
         android:textColor="@color/white"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textStyle="bold" />
 
     <Button
@@ -82,9 +82,9 @@
         android:layout_marginEnd="2dp"
         android:layout_marginBottom="27dp"
         android:background="@drawable/botones1"
-        android:text="Añadir al carrito"
+        android:text="@string/AddCarrito"
         android:textColor="@color/white"
-        android:textSize="18dp" />
+        android:textSize="18sp" />
 
 
 </RelativeLayout>

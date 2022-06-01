@@ -104,6 +104,7 @@ public class ConfirmarordenActivity extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if(task.isSuccessful()){
                                         Toast.makeText(ConfirmarordenActivity.this, "Su pedido se ha realizado..", Toast.LENGTH_SHORT).show();
+
                                         Intent i = new Intent(ConfirmarordenActivity.this, PrincipalActivity.class);
                                         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP| Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                         startActivity(i);

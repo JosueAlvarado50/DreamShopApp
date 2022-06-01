@@ -37,7 +37,6 @@ public class CarritoActivity extends AppCompatActivity {
     private RecyclerView.LayoutManager layoutManager;
     private Button Siguiente,Siguiente2;
     private TextView TotalPrecio,mensaje1;
-
     private double PrecioTotalID = 0.0;
     private String CurrentUserId;
     private FirebaseAuth auth;
@@ -163,6 +162,7 @@ public class CarritoActivity extends AppCompatActivity {
     }
 
     private void VerificarOrden() {
+
         DatabaseReference ordenRef;
         ordenRef = FirebaseDatabase.getInstance().getReference().child("Ordenes").child(CurrentUserId);
 
@@ -172,6 +172,9 @@ public class CarritoActivity extends AppCompatActivity {
                 if(snapshot.exists()){
                     String estado = snapshot.child("estado").getValue().toString();
                     String nombre = snapshot.child("nombre").getValue().toString();
+
+
+
                     if(estado.equals("Enviado")){
                         TotalPrecio.setText("Estimado" + nombre + " Su pedido fue enviado.. ");
                         recyclerView.setVisibility(View.GONE);

@@ -7,16 +7,13 @@
     android:layout_marginTop="20dp"
     android:layout_marginStart="15dp"
     android:layout_marginEnd="15dp"
-    app:cardElevation="15dp"
-    >
-
+    app:cardElevation="15dp">
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="8dp"
-        android:outlineAmbientShadowColor="@color/black"
-        >
+        android:outlineAmbientShadowColor="@color/black">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -34,7 +31,6 @@
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="20dp" />
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -46,14 +42,12 @@
                     android:layout_height="200dp"
                     android:layout_marginTop="2dp"
                     android:scaleType="centerInside" />
-
             </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:gravity="center"
-                >
+                android:gravity="center">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -67,7 +61,6 @@
                         android:textColor="@color/purple_500"
                         android:textSize="16dp"
                         android:textStyle="bold" />
-
                     <TextView
                         android:id="@+id/producto_descripcion"
                         android:layout_width="wrap_content"
@@ -79,12 +72,10 @@
                         android:textSize="16dp" />
                 </RelativeLayout>
             </LinearLayout>
-
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
-
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -94,10 +85,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:text="Disponibles:"
+                        android:text="@string/disponibles"
                         android:textColor="@color/purple_500"
                         android:textSize="16dp" />
-
                     <TextView
                         android:id="@+id/producto_cantidad"
                         android:layout_width="wrap_content"
@@ -113,10 +103,9 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
                         android:layout_toRightOf="@id/producto_cantidad"
-                        android:text="Costo: $"
+                        android:text="@string/costo"
                         android:textColor="@color/purple_500"
                         android:textSize="16dp" />
-
                     <TextView
                         android:id="@+id/producto_precio"
                         android:layout_width="wrap_content"
@@ -127,28 +116,8 @@
                         android:textColor="@color/purple_500"
                         android:textSize="16dp"
                         android:textStyle="bold" />
-
                 </RelativeLayout>
             </LinearLayout>
-
-
-
-
-
-
-
-
-
         </LinearLayout>
-
-
     </com.google.android.material.card.MaterialCardView>
-
-
-
-
-
-
-
-
 </LinearLayout>

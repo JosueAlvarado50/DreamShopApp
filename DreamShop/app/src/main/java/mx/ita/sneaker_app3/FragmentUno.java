@@ -14,8 +14,7 @@ import android.widget.Switch;
 public class FragmentUno extends Fragment {
 
     private View fragmento;
-    private ImageView tenis, ropa;
-    private ImageView accesorios, mas;
+    private ImageView comics, figuras, consolas;
 
     public FragmentUno() {
     }
@@ -25,47 +24,37 @@ public class FragmentUno extends Fragment {
                              Bundle savedInstanceState) {
         fragmento = inflater.inflate(R.layout.fragment_uno, container, false);
 
-        tenis = (ImageView) fragmento.findViewById(R.id.tenis);
-        ropa = (ImageView) fragmento.findViewById(R.id.ropa);
-        accesorios = (ImageView) fragmento.findViewById(R.id.accesorios);
+        comics = (ImageView) fragmento.findViewById(R.id.comics);
+        figuras = (ImageView) fragmento.findViewById(R.id.figuras);
+        consolas = (ImageView) fragmento.findViewById(R.id.consolas);
 
 
-        tenis.setOnClickListener(new View.OnClickListener() {
+        comics.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getContext(), AgregarproductoActivity.class);
-                i.putExtra("categoria", "tenis");
+                i.putExtra("categoria", "comics");
                 startActivity(i);
             }
         });
 
-        ropa.setOnClickListener(new View.OnClickListener() {
+        figuras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getContext(), AgregarproductoActivity.class);
-                i.putExtra("categoria", "ropa");
+                i.putExtra("categoria", "figuras");
                 startActivity(i);
             }
         });
-        accesorios.setOnClickListener(new View.OnClickListener() {
+        consolas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getContext(), AgregarproductoActivity.class);
-                i.putExtra("categoria", "accesorios");
+                i.putExtra("categoria", "consolas");
                 startActivity(i);
             }
         });
-        /* final Switch sw = fragmento.findViewById(R.id.switchTema);
-        sw.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if(sw.isChecked()){
-                    ((MainActivity)getActivity()).setDayNight(0);
-                }else{
-                    ((MainActivity)getActivity()).setDayNight(1);
-                }
-            }
-        });*/
+
 
 
         return fragmento;

@@ -15,6 +15,7 @@
         android:background="@color/purple_500"
         android:textColor="@color/black"
         android:padding="15dp"
+        android:textSize="20sp"
         android:textStyle="bold|italic"/>
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -25,10 +26,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:scaleType="centerInside"
-        android:src="@drawable/welcome"
-        android:visibility="invisible"
-        app:civ_border_color="@color/black"
-        app:civ_border_width="2dp" />
+        android:src="@drawable/agregarimagen"
+         />
 
     <EditText
         android:id="@+id/setup_nombre"
@@ -36,9 +35,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/setup_imagen"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/textos"
         android:hint="@string/nombre"
         android:inputType="text"
@@ -50,7 +49,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/setup_nombre"
         android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
         android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
         android:background="@drawable/textos"
         android:hint="@string/direccion"
         android:inputType="text"
@@ -63,6 +64,7 @@
         android:layout_below="@id/setup_direccion"
         android:hint="@string/telefono"
         android:padding="10dp"
+        android:layout_marginBottom="10dp"
         android:background="@drawable/textos"
         android:inputType="phone"
         android:layout_marginRight="20dp"
@@ -78,6 +80,7 @@
         android:padding="10dp"
         android:background="@drawable/textos"
         android:inputType="text"
+        android:layout_marginBottom="10dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"/>
@@ -88,11 +91,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/setup_ciudad"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="80dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/botones1"
-
         android:padding="10dp"
         android:text="@string/continuar"
-        android:textSize="20dp" />
+        android:textSize="20sp" />
 </RelativeLayout>

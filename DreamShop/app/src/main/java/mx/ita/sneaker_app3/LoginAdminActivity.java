@@ -20,7 +20,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class LoginAdminActivity extends AppCompatActivity{
 
-
     private TextView registrate;
     private EditText correo;
     private  EditText password;
@@ -38,10 +37,17 @@ public class LoginAdminActivity extends AppCompatActivity{
         iniciar = findViewById(R.id.iniciar);
 
 
-
         iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) { iniciarSesion();
+            }
+        });
+        registrate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(LoginAdminActivity.this, Registro.class);
+                startActivity(i);
+
             }
         });
 
@@ -52,7 +58,6 @@ public class LoginAdminActivity extends AppCompatActivity{
         FirebaseUser currentUser = mAuth.getCurrentUser();
         //updateUI(currentUser);
     }
-
 
     public void iniciarSesion(){
         try {

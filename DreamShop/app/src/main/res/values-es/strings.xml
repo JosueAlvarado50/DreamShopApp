@@ -1,10 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">DreamShop</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="menu_principal">Menú Principal</string>
     <string name="seleccione_uno">Seleccione Uno</string>
     <string name="admin">Admin</string>
@@ -12,8 +10,8 @@
     <string name="bienvenido">¡Bienvenido!</string>
     <string name="password">Contraseña</string>
     <string name="settings">Ajustes</string>
-    <string name="user">Usuarios</string>
-    <string name="unete">Unirse</string>
+    <string name="user">Usuario</string>
+    <string name="unete">¡Únete!</string>
     <string name="sharebutt">Compartir</string>
     <string name="share">Si te gusta nuestra app comparte con tus amigos.</string>
     <string name="email">Correo</string>
@@ -31,14 +29,14 @@
     <string name="acercade">Acerca de nosotros</string>
     <string name="Configuracion">Configuración</string>
     <string name="Acercadenosotros">Somos un grupo de programadores con el objetivo de optimizar una metodología de comercio tal como lo es un restaurante, optimizar la forma de pedidos del cliente haciendo uso de la tecnologia de los smartphones hoy en dia.</string>
-    <string name="registrateaqui">Registrate aqui</string>
+    <string name="registrateaqui">Regístrate aquí</string>
     <string name="enviaremail">Enviar email</string>
     <string name="Contactanos">Contáctanos</string>
     <string name="Estamosdispo">Estamos disponibles las 24 horas.</string>
     <string name="yatienescuentabutton">Ingresa aqui.</string>
     <string name="agregar_producto">Agregar producto</string>
     <string name="nombre_del_producto">Nombre del producto</string>
-    <string name="descripcion_del_producto">Descripción</string>
+    <string name="descripcion_del_producto">Descripción del producto</string>
     <string name="precio_de_compra">Precio de compra</string>
     <string name="precio_de_venta">Precio de venta</string>
     <string name="cantidad_existente">Cantidad existente</string>
@@ -64,9 +62,6 @@
     <string name="fecha_y_hora">Fecha y Hora</string>
     <string name="ver_orden">Ver orden</string>
     <string name="cantidad_000">Cantidad: 000</string>
-    <string name="idioma_ingles">idioma_ingles</string>
-    <string name="idioma_espa_ol">idioma_espa_ol</string>
-
     <string name="cerrar_sesion">Cerrar sesión</string>
     <string name="bienvenidoadmin">¡Bienvenido Admin!</string>
     <string name="productos">Productos</string>
@@ -77,8 +72,8 @@
     <string name="inventario">Inventario</string>
     <string name="perfil">Perfil</string>
     <string name="orden">Orden</string>
-
-
+    <string name="navigation_drawer_close">b</string>
+    <string name="navigation_drawer_open">a</string>
     <string name="cantidad">Cantidad</string>
     <string name="cambio_idioma">Cambio Idioma</string>
     <string name="Existencia">Existencias</string>
@@ -87,11 +82,9 @@
     <string name="dark_mode">Modo Oscuro</string>
     <string name="cambio_de_tema">Cambio de tema</string>
     <string name="datos_de_la_cuenta">Datos de la cuenta</string>
+    <string name="idioma_ingles">Idioma Inglés</string>
+    <string name="idioma_espa_ol">Idioma Español</string>
     <string name="disponibles">Disponibles:</string>
-
-    <string name="total">Total: $</string>
-
-
 
 
 </resources>
